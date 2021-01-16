@@ -30,7 +30,7 @@ docker
 
 
 
-# Create jupyter&MySQL for test by docker-compose(dir dockercompose)
+# Create jupyter&MySQL for test(dir dockercompose)
 ![image](https://raw.githubusercontent.com/pu6372689/study/master/ReadmePic/p2.jpg)
 
 
