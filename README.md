@@ -24,4 +24,4 @@ crontab -e
 
 #每天12點執行
 
-/* 12 * * * /tmp/study/crawl/start-crawl.sh
+'* 12 * * * /tmp/study/crawl/start-crawl.sh
