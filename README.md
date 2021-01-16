@@ -10,20 +10,20 @@ Linux
 docker
 
 # How to use
-cd /tmp/&& git clone https://github.com/pu6372689/study
+* cd /tmp/&& git clone https://github.com/pu6372689/study
 
-cd dockerfile_crawl
+* cd dockerfile_crawl
 
-docker build -t test .
+* docker build -t test .
 
 #test crawl
 
-cd ../&& ./start-crawl.sh
+* cd ../&& ./start-crawl.sh
 
 #use crontab
 
-crontab -e
+* crontab -e
 
 #每天12點執行
 
-\* 12 * * * /tmp/study/crawl/start-crawl.sh
+* \* 12 * * * /tmp/study/crawl/start-crawl.sh
