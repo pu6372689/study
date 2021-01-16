@@ -17,9 +17,11 @@ cd dockerfile_crawl
 docker build -t test .
 
 #test crawl
+
 cd ../&& ./start-crawl.sh
 
 #use crontab
+
 crontab -e
 
 #每天12點執行
