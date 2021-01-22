@@ -1,0 +1,37 @@
+version: '3.7'
+services:
+
+  jupyter:
+    build:
+      context: ./dockerfile
+      dockerfile: Dockerfile
+    container_name: jupyter
+    hostname: jupyter
+    restart: unless-stopped
+    volumes:
+      - ./work:/home/jovyan/work
+    ports:
+      - 8888:8888
+    command: start-notebook.sh --NotebookApp.token=''
+    environment:
+      - TZ=Asia/Taipei
+      - JUPYTER_ENABLE_LAB=yes
+    depends_on:
+      - mysql
+    networks:
+      test_net:
+
+  mysql:
+    image: mysql
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+    volumes:
+      - ./sqls:/var/lib/mysql
+
+    networks:
+       test_net:
+networks:
+    test_net:
