@@ -1,5 +1,5 @@
 # Crontab for crawler(dir crawl)
-![image](https://raw.githubusercontent.com/pu6372689/study/master/ReadmePic/p1.jpg)
+![image](https://raw.githubusercontent.com/pu6372689/study/master/docker_practice/ReadmePic/p1.jpg)
 
 A simple autocrawl;run in container
 
@@ -31,7 +31,7 @@ docker
 
 
 # Create jupyter&MySQL for test(dir dockercompose)
-![image](https://raw.githubusercontent.com/pu6372689/study/master/ReadmePic/p2.jpg)
+![image](https://raw.githubusercontent.com/pu6372689/study/master/docker_practice/ReadmePic/p2.jpg)
 
 
 
@@ -56,4 +56,4 @@ docker-compose
 * ip:8888
 
 #use workbench to check MySQL
-![image](https://raw.githubusercontent.com/pu6372689/study/master/ReadmePic/p3.jpg)
+![image](https://raw.githubusercontent.com/pu6372689/study/master/docker_practice/ReadmePic/p3.jpg)
